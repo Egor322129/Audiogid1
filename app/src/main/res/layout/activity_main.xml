@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Play first song!"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="11dp"
+            android:textSize="22dp"
+            android:textColor="@android:color/holo_blue_light"
+            android:clickable="true"
+            android:background="@drawable/button_back"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/firstsong"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Play second song!"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="11dp"
+            android:textSize="22dp"
+            android:textColor="@android:color/holo_blue_light"
+            android:clickable="true"
+            android:background="@drawable/button_back"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/secondsong"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Play third song!"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="11dp"
+            android:textSize="22dp"
+            android:textColor="@android:color/holo_blue_light"
+            android:clickable="true"
+            android:background="@drawable/button_back"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/thirdsong"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text = "Play the last song!"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="11dp"
+            android:textSize="22dp"
+            android:textColor="@android:color/holo_blue_light"
+            android:clickable="true"
+            android:background="@drawable/button_back"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/lastsong"
+            />
+    </LinearLayout>
+
+</LinearLayout>
